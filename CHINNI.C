@@ -3,7 +3,7 @@ int main()
 {
 int r,q,rev ,no;
 rev=0;
-printf("enter a number :");
+printf("enter a number:");
 scanf("%d",&no);
 while(no>0)
 {
@@ -13,6 +13,6 @@ printf("r=%d,q=%d, rev=%d\n",r,q,rev);
 rev=rev*10+r;
 no=q;
 }
-printf("reverse numbedr is %d",rev);
+printf("reverse number is %d",rev);
 return 0;
 }
