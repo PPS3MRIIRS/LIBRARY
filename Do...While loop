@@ -1,0 +1,11 @@
+#include <studio.h>
+int main(){
+int j=0;
+do 
+{
+printf("value of variable j is:%d\n",j);
+j++;
+}
+While(j<=3);
+return 0;
+}
