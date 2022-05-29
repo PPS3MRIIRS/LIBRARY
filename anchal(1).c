@@ -1,7 +1,7 @@
 //two dimensional array to store and print values
 //C program to store temperature of two cities of a week and display it
 
-# include <studio.h>
+# include <stdio.h>
 const int city=2;
 const int day=7;
 int main(){
