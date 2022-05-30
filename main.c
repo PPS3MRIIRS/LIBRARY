@@ -1,0 +1,28 @@
+# include <stdio.h>
+void main()
+{
+    int a[10]={13,45,67,89,90,67,89,45,67.23};
+    int s,j, k,x;
+    s=sizeof (a);
+    printf("unsorted array :");
+    for (int i=0;i,s;i++)
+    {
+        printf("%d",a[i]);
+      for(k=s;k>0;k--)  
+      {
+          for(int i=0;i<(s-1);i++)
+          {
+              j=i+1;
+              if(a[j]<=a[i]){
+                  x=a[j];
+                  a[j]=a[i];
+                  a[i]=x;
+              }
+          }
+      }
+    }
+    printf(" \n Bullble sorted array is :");
+    for (int i=0;i<s;i++)
+    printf("%d",a[i]);
+
+}
